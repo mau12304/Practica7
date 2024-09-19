@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}   
+body{
+    background-color: #7a7a7a;
+}
+.areaPrincipal{
+    background-image: url("../img/fondo.png"); /*Agregar fondo de imagen al div*/
+    background-repeat: no-repeat;/*permitir o no que se repita una imagen*/
+    width: 100%;
+    height: auto;
+    opacity: 0.7;/*Opacidad de la imagen*/
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+#encabezado{
+    background: #e2ae7a;
+    height: 240px;
+    text-align: center;
+    background-image: url("../img/logo.png");
+    
+    background-repeat: no-repeat;
+    background-size: 180px 180px;
+}
+.piePagina{
+    width: 100%; /*ancho*/
+    height:  100px;/*alto*/
+    background: #f5455ddd;/*Color de fondo*/
+    color: white; /*Color de letra dentro de la clase*/
+    bottom: 0;/*Espacio de separacion parte inferior*/
+    left: 0;/*Alineación de contenidos a la izquierda*/
+}
+#menu{
+    height: 40px;
+    position: relative;
+    top: 200px;
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #945a2a;
+}
+#menu li{
+    float: left;
+}
+#menu li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background-color: #f14e13;
+}
+#datos{
+    width: 80%;
+    background-color: #f5455de6;
+    height: 750px;
+    margin: auto;
+    opacity: 1;
+    color: #090909;
+    text-align: center;
+    padding: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#descripcion{
+    text-align: left;
+    text-align: justify;
+    line-height: 1.5; /* Espaciado de 1.5 veces el tamaño de la fuente */
+}
+.Menu-lista{
+    text-align: left;
+    margin: 0px;
+
+}
+.Menu-lista ul{
+    list-style-type: none;
+    padding: 0;
+} 
+.Menu-lista ul li{
+    font-size: 1.2em;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+span{
+    font-weight: bold;
+    color: #000;
+}
+h2{
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #000;
+}
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 columnas del mismo tamaño */
+    gap: 10px; /* Espacio entre imágenes */
+}
+.galeria img{
+    width: 350px;
+    height: auto;
+}
+#informacion{
+    text-align: left;
+}
